@@ -1,32 +1,44 @@
+-- lua/glowdeep/palette.lua
 local M = {}
--- Base palettes (tweak to taste)
+
 M.dark = {
-	bg = "#0f1115",
-	bg_alt = "#131720",
-	fg = "#cdd6f4",
-	fg_dim = "#a6adc8",
-	surface = "#1a1e29",
-	mantle = "#0b0d12",
-	overlay = "#2a2f3a",
-	muted = "#6c7086",
-	subtle = "#585b70",
+	bg = "#1a212e",
+	bg_alt = "#1d2533",
+	fg_bright = "#e0eeef",
+	fg = "#b6c3d9",
+	surface = "#212a3b",
+	mantle = "#171d29",
+	overlay = "#454963",
+	muted = "#676e95",
+	subtle = "#838FA7",
 
-	red = "#f38ba8",
-	orange = "#fab387",
-	yellow = "#f9e2af",
-	green = "#a6e3a1",
-	teal = "#94e2d5",
-	cyan = "#89dceb",
-	blue = "#89b4fa",
-	purple = "#cba6f7",
-	magenta = "#f5c2e7",
+	red = "#e51400",
+	orange = "#f39b6d",
+	yellow = "#ffc15e",
+	green = "#85d680",
+	teal = "#8A97C3",
+	cyan = "#1ac8ed",
+	blue = "#72a1e5",
+	purple = "#9883e5",
+	magenta = "#ff6ab3",
 
-	-- semantic
-	error = "#f38ba8",
-	warn = "#fab387",
-	info = "#89b4fa",
-	hint = "#94e2d5",
-	ok = "#a6e3a1",
+	error = "#e51400",
+	warn = "#ff8a4c",
+	info = "#4480f4",
+	hint = "#1ac8ed",
+	ok = "#3ec141",
+
+	bad_green = "#00ff00",
+
+	file_orange = "#ff8a4c",
+	deep_yellow = "#ee9d28",
+	pale_red = "#ff686b",
+	deep_pink = "#f02b77",
+	pink = "#d972ff",
+
+	-- Optional extras if you want them later
+	cursor = "#f39b6d",
+	cursor_line = "#252e40",
 }
 
 M.light = {
