@@ -8,8 +8,10 @@ True, False  # Boolean
 # ---------- Identifiers / Functions ----------
 variable_name = 10  # Identifier
 
+THING
 
-def my_function(x):  # Function (definition name)
+
+def my_function(x: int):  # Function (definition name)
     return x + 1
 
 
@@ -27,6 +29,10 @@ not True and False  # Operator (not, and, or)
 
 
 class MyClass:  # Keyword (class, def, return, etc.)
+    @foo
+    def __init__(self, value):
+        self.value = value
+
     pass
 
 
